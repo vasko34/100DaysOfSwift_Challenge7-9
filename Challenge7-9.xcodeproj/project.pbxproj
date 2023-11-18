@@ -13,6 +13,7 @@
 		CE0FF4B92AD966F000F8B9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0FF4B72AD966F000F8B9E4 /* Main.storyboard */; };
 		CE0FF4BB2AD966F200F8B9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0FF4BA2AD966F200F8B9E4 /* Assets.xcassets */; };
 		CE0FF4BE2AD966F200F8B9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0FF4BC2AD966F200F8B9E4 /* LaunchScreen.storyboard */; };
+		CE0FF4C62AD96B8F00F8B9E4 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE0FF4C52AD96B8E00F8B9E4 /* words.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE0FF4BA2AD966F200F8B9E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0FF4BD2AD966F200F8B9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE0FF4BF2AD966F200F8B9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0FF4C52AD96B8E00F8B9E4 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CE0FF4BA2AD966F200F8B9E4 /* Assets.xcassets */,
 				CE0FF4BC2AD966F200F8B9E4 /* LaunchScreen.storyboard */,
 				CE0FF4BF2AD966F200F8B9E4 /* Info.plist */,
+				CE0FF4C52AD96B8E00F8B9E4 /* words.txt */,
 			);
 			path = "Challenge7-9";
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				CE0FF4BE2AD966F200F8B9E4 /* LaunchScreen.storyboard in Resources */,
 				CE0FF4BB2AD966F200F8B9E4 /* Assets.xcassets in Resources */,
+				CE0FF4C62AD96B8F00F8B9E4 /* words.txt in Resources */,
 				CE0FF4B92AD966F000F8B9E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,9 +311,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Challenge7-9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -335,9 +342,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Challenge7-9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
